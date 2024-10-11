@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="inicio-btn">
+        <a href="">Inicio</a>
+    </div>
+    <main>
+        <header><img src="Imagenes/Logo.png" alt="Logotipo"></header>
+        <nav>
+            <a href="#position">Propiedad position</a>
+            <a href="#display">Propiedad display</a>
+            <a href="#css3">Propiedades de CSS3</a>
+            <a href="#animacion">Animación</a>
+            <a href="#referencias">Referencias avanzadas de CSS3</a>
+            <a href="#cuestionario">Cuestionario</a>
+        </nav>
+
+        <section>
+            <div class="titulo">
+                <h1 id="position">Propiedad position.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                    <ul>
+                        <li>Especifica el de posicionamiento utilizado para un elemento.</li>
+                        <li>Los elementos HTML se posicionan estáticos de forma predeterminada.</li>
+                        <li>Un elemento con position: static; no está posicionado de ninguna manera especial.</li>
+                        <li>Un elemento con position: relative; está posicionado en relación con su posición normal.
+                        </li>
+                        <li>El desplazamiento de la caja se controla con las propiedades top, bottom, left, right y
+                            z-index.
+                        </li>
+                        <li>El posicionamiento absoluto se emplea para establecer de forma exacta la posición en la que
+                            se
+                            muestra en la caja de un elemento.</li>
+                        <li>Un elemento con positiom: fixed; siempre permanece en el mismo lugar, incluso si la página
+                            se
+                            desplaza.</li>
+                        <li>Un elemento sticky alterna entre relativo y fijo, dependiendo de la posición de
+                            desplazamiento.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        <b>Propiedad Position.</b> Especifica el tipo me método de posicionamiento utilizado para un
+                        elemento. <br>
+                        <br>
+                        <b>position: static;</b> Los elementos HTML se posicionan estáticos de forma predeterminada.
+                        Un elemento con position: static; no está posicionado de ninguna manera especial; siempre se
+                        posiciona de acuerdo con el flujo normal de la página. <br>
+                        <br>
+                        <b>position: relative;</b> Un elemento con position: relative; está posicionado en relación con
+                        su posición normal.
+                        El posicionamiento relativo desplaza un elemento respecto de su posición original establecida
+                        mediante el posicionamiento normal. <br>
+                        <br>
+                        <b>position; absolute;</b> El posicionamiento absoluto se emplea para establecer de forma exacta
+                        la
+                        posición en la que se muestra en la caja de un elemento. <br>
+                        La nueva posición del elemento se indica mediante las propiedades top, bottom, left, right y
+                        z-index. que en este caso depende del posicionamiento del elemento contenedor cuando tiene una
+                        posición diferente a static. <br>
+                        Cuando un elemento se posiciona de forma absoluta, el resto de elementos se posiciona de forma
+                        absoluta, el resto de elementos de la página se ven afectados y modifican su posición. Los demás
+                        elementos ocuparán el espacio que deja el elemento desplazado y es probable que se produzcan
+                        solapamientos con otros elementos. <br>
+                        <br>
+                        <b>position: fixed;</b> Un elemento con positiom: fixed; está ubicado en relación con la ventana
+                        gráfica, lo que significa que siempre permanece en el mismo lugar, incluso si la página se
+                        desplaza.
+                        <br>
+                        Las propiedades: top, bottom, left y right se utilizan para posicionar el elemento. <br>
+                        Un elemento fijo no deja un espacio en la página donde normalmente se ubicará. <br>
+                        <br>
+                        <b>postion: sticky;</b> Se posiciona en función de la posición de desplazamiento del usuario.
+                        <br>
+                        Un elemento sticky alterna entre relativo y fijo, dependiendo de la posición de desplazamiento.
+                        Se
+                        posiciona de forma relativa hasta que se encuentra una posición de desplazamiento dada en la
+                        ventana
+                        gráfica, luego se “pega” en su lugar (como position: fixed).
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/position.png"><img src="Imagenes/position-2.png" alt="Position" height="300"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    La propiedad position sirve para el posicionamiento utilizado para un elemento. Los elementos HTML
+                    se
+                    posicionan estáticos de forma predeterminada. Un elemento con position: static; siempre se posiciona
+                    de
+                    acuerdo con el flujo normal de la página. El posicionamiento relativo desplaza un elemento respecto
+                    de
+                    su posición original establecida mediante el posicionamiento normal. El posicionamiento absoluto se
+                    emplea para establecer de forma exacta la posición en la que se muestra en la caja de un elemento.
+                    Un
+                    elemento con positiom: fixed; está ubicado en relación con la ventana gráfica. Un elemento sticky Se
+                    posiciona de forma relativa hasta que se encuentra una posición de desplazamiento dada en la ventana
+                    gráfica.
+                </p>
+            </div>
+        </footer>
+
+
+
+
+        <section>
+            <div class="titulo">
+                <h1 id="display">Propiedad display.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                    <ul>
+                        <li>Es una de las más complejas de CSS.</li>
+                        <li>La propiedad display establece el tipo de la caja que genera cada elemento.</li>
+                        <li>display: block; Siempre comienza en una nueva línea y ocupa todo el ancho disponible.</li>
+                        <li>Un elemento inline no comienza en una nueva línea.</li>
+                        <li>inline-block; Permite establecer un ancho y una altura en el elemento.</li>
+                        <li>display: none; Se usa comúnmente en JavaScript para ocultar y mostrar elementos cuando el
+                            usuario realiza alguna acción como pulsar un botón o unos enlaces sin eliminarlos ni
+                            crearlos
+                            nuevamente.</li>
+                        <li>display: table; Permite asignar un comportamiento de tabla a los elementos que hay dentro.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        <b>Propiedad display.</b> Es una de las más complejas de CSS. La propiedad display establece el
+                        tipo
+                        de la caja que genera cada elemento. Cada elemento de HTML tiene un valor de visualización
+                        predeterminada para la mayoría de los elementos es block o inline. <br>
+                        <br>
+                        <b>Propiedad display: block;</b> Siempre comienza en una nueva línea y ocupa todo el ancho
+                        disponible (se extiende hacia la izquierda y hacia la derecha tanto como sea posible). <br>
+                        <br>
+                        <b>Propiedad display: inline;</b> Un elemento inline no comienza en una nueva línea y solo ocupa
+                        el
+                        ancho que sea necesario. Ej: span, a, img. <br>
+                        <br>
+                        <b>Propiedad display: inline-block;</b> Permite establecer un ancho y una altura en el elemento.
+                        Además, se respetan los margin y padding, que con display: inline no son respetados. No agrega
+                        un
+                        salto de línea después del elemento, por lo que el elemento puede alinearse junto a otros
+                        elementos.
+                        <br>
+                        <br>
+                        <b>Propiedad display: none;</b> Se usa comúnmente en JavaScript para ocultar y mostrar elementos
+                        cuando el usuario realiza alguna acción como pulsar un botón o un enlaces sin eliminarlos ni
+                        crearlos nuevamente. Hace que el elemento no genere ninguna caja. El resultado es que el
+                        elemento
+                        desaparece por completo de la pagina y no ocupa sitio, por lo que los elementos adyacentes
+                        ocupan su
+                        lugar. Se utiliza sobre un elemento todos sus descendientes también desaparecen por completo de
+                        la
+                        página. <br>
+                        <br>
+                        <b>Propiedad display: table;</b> Permite asignar un comportamiento de tabla a los elementos que
+                        hay
+                        dentro (anidados a la etiqueta donde estas colocando el display: table). Dentro de este elemento
+                        de
+                        pueden usar otra series de valores de display que corresponden con los roles de distintas
+                        etiquetas
+                        HTML que usas en las tablas. <br>
+                        <br>
+                        <b>display: table-row;</b> Actúa como un elemento fila, etiqueta ‘tr’ <br>
+                        <br>
+                        <b>display: table-cell;</b> Etiquetas que trabajan como una celda de tabla, etiqueta ‘td’.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/display.jpeg"><img src="Imagenes/display-2.png" alt="Display" height="300"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    La propiedad display establece el tipo de la caja que genera cada elemento. Cada elemento de HTML
+                    tiene
+                    un valor de visualización predeterminada para la mayoría de los elementos es block o inline. Existen
+                    varios elementos de display y cada uno cuenta con sus propias funciones y especificaciones, por
+                    ejemplo,
+                    display: block; display: inline; display: inline-block; display: none; display: table;.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <section>
+            <div class="titulo">
+                <h1 id="css3">Propiedades de CSS3.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                    <ul>
+                        <li>CSS3 no solo cubre diseño y estilo, sino que también cubre forma y movimiento.</li>
+                        <li>Se pueden generar esquinas redondeadas, sombras y transformaciones.</li>
+                        <li>Se pueden cargar y usar cualquier fuente que necesitemos.</li>
+                        <li>Se pueden agregar varios colores a un mismo elemento como un círculo o un cuadrado.</li>
+                        <li>También se puede modificar la forma de un elemento ya que se puede rotar, inclinar,
+                            trasladar o escalar.</li>
+                        <li>Además, se puede crear un borde a una imagen personalizada.</li>
+                        <li>Se le puede generar un segundo borde alejado del borde original de algún elemento.</li>
+                        <li>Se puede especificar la opacidad de un color.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        <b>Propiedades de CSS3.</b> En un intento por reducir el uso de código JavaScript y para
+                        estandarizar funciones populares, CSS3 no solo cubre diseño y estilo sino también forma y
+                        movimiento. <br>
+                        Desde esquinas redondeadas y sombras hasta transformaciones y reposiciones de los elementos ya
+                        presentados en pantalla, cada posible efecto aplicado previamente utilizando JavaScript fue
+                        cubierto. <br>
+                        <br>
+                        <b>Border-radius.</b> Genera esquinas redondeadas para la caja formada por el elemento. Posee
+                        dos parámetros diferentes que dan forma a la esquina. <br>
+                        <br>
+                        <b>Box-shadow.</b> Esta propiedad crea sombras para la caja formada por el elementó. <br>
+                        <br>
+                        <b>@font-face.</b> Esta regla nos permite cargar y usar cualquier fuente que necesitemos. <br>
+                        <br>
+                        <b>linear-gradient.</b> Esta función puede ser aplicada a las propiedades background o
+                        background-image para generar un gradiente lineal. <br>
+                        <br>
+                        <b>radial-gradient.</b> Esta función puede ser aplicada a las propiedades background o
+                        background-image para generar un gradiente radial. <br>
+                        <br>
+                        <b>RGBA.</b> rgba() esta función es una mejora de rgb() con un canal alfa que especifica la
+                        opacidad de un color. <br>
+                        <br>
+                        <b>HSLA.</b> Significa tono, saturación y luminosidad. <br>
+                        <br>
+                        <b>Outline.</b> Esta propiedad fue mejorada con la incorporación de otra propiedad llamada
+                        outline-offset. Ambas propiedades combinadas generan un segundo borde alejado del borde original
+                        del elemento. <br>
+                        <br>
+                        <b>Border-image.</b> Esta propiedad crea un borde con una imagen personalizada. <br>
+                        <br>
+                        <b>Transform.</b> Esta propiedad modifica la forma de un elemento.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/CSS3.jpg"><img src="Imagenes/CSS3-2.png" alt="Propiedades de CSS3"
+                            height="300"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    Las nuevas propiedades del CSS3 se hicieron para reducir el uso de JavaScrip y para estandarizar
+                    funciones populares, CSS3 no solo cubre diseño y estilo sino también forma y estilo. Con estas
+                    nuevas funciones se pueden redondear las esquinas, poner sombras, transformar y hacer reposiciones
+                    de los elementos sin la necesidad de utilizar JavaScript. Estos cambios convierten a CSS3 en una
+                    tecnología prácticamente inédita.
+                </p>
+            </div>
+        </footer>
+
+
+        <section>
+            <div class="titulo">
+                <h1 id="animacion">Animación.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                    <ul>
+                        <li>Con CSS se pueden animar la mayoría de los elementos sin usar JavaScript.</li>
+                        <li>Para poder hacer que una animación funcione, se debe vincular la animación a un elemento.
+                        </li>
+                        <li>Existen diferentes etiquetas para definir la animación, por ejemplo, para especificar el
+                            tiempo que debe durar la animación, si la animación debe reproducirse hacia adelante, hacia
+                            atrás o en ciclos alternos.</li>
+                        <li>También de puede especificar el numero de veces que se debe reproducir la animación o
+                            especificar la curva de velocidad de la animación, entre otros.</li>
+                        <li>Se pueden usar varias etiquetas para hacer una animación todo depende de lo que tú quieras
+                            realizar.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        <b>Animación.</b> CSS permite animar la mayoría de los elementos sin usar JavaScript. <br>
+
+                        <b>animation-duration:</b> especifica cuanto tiempo debe transcurrir una animación. <br>
+
+                        <b>animation-direction:</b> especifica si debe reproducirse hacia adelante, hacia
+                        atrás o en ciclos alternos.
+                    <ol>
+                        <li><b>normal:</b> la animación se reproduce de forma normal (hacia adelante).</li>
+                        <li><b>reverse:</b> la animación se reproduce en dirección inversa (hacia atrás).</li>
+                        <li><b>alternate:</b> la animación se reproduce hacia adelante primero, luego hacia atrás.</li>
+                        <li><b>alternate-reverse: </b> la animación se reproduce hacia atrás primero, luego hacia
+                            adelante.</li>
+                    </ol>
+                    <b>animation-iteration-count:</b> especifica el número de veces que se debe reproducir.
+                    <br>
+
+                    <b>animation-delay:</b> Especifica un retraso para el inicio de una animación. <br>
+
+                    <b>animation-play-state:</b> especifica si la animación se está ejecutando o está en pausa. <br>
+
+                    <b>animation-timing-fuction:</b> especifica la curva de velocidad de la animación.
+                    <ol>
+                        <li><b>linear:</b> especifica una animación con la misma velocidad de principio a fin.</li>
+                        <li><b>ease:</b> especifica un ciclo lento, luego rápido y luego termina
+                            lentamente.</li>
+                        <li><b>ease-in:</b> especifica una animación con un inicio lento.</li>
+                        <li><b>ease-out:</b> especifica una animación con un final lento.</li>
+                        <li><b>ease-in-out:</b> especifica una animación con un inicio y un final lentos.</li>
+                        <li><b>cubic-bezier (n, n, n, n):</b> permite definir sus valores en
+                            cubic-bezer.</li>
+                    </ol>
+                    <b>animation-fill-mode:</b> especifica un estilo cuando la animación no se está
+                    reproduciendo.
+                    <ol>
+                        <li><b>none:</b> valor predeterminado.</li>
+                        <li><b>forwards:</b> retendrá los valores de estilo establecidos por el ultimo
+                            fotograma clave.</li>
+                        <li><b>backwards:</b> obtendrá los valores establecidos por el primer
+                            fotograma clave.</li>
+                        <li><b>both:</b> seguirá las reglas tanto para adelante como para atrás, extiende
+                            las propiedades de animación en ambas direcciones.</li>
+                    </ol>
+                    <b>animation:</b> propiedad rápida para configurara todas las propiedades de la animación.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/animacion.jpg"><img src="Imagenes/animacion 2.png" alt="Animación"
+                            height="300"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    Para animar en CSS ya no es necesario usar JavaScript. Si especificas un estilo CSS dentro de la
+                    regla @keyframes, la animación cambiara de estilo actual al estilo nuevo. Para que una animación
+                    pueda funcionar, se debe vincular la animación a un elemento. Con las diferentes etiquetas con las
+                    que cuenta CSS se le puede dar la forma que desees a la animación.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <section>
+            <div class="titulo">
+                <h1 id="referencias">Referencias avanzadas de CSS3.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                    <ul>
+                        <li>Existen diferentes dos tipos de atributos el id y el class, el primero sirve para darle un
+                            nombre que identifique al elemento, y el segundo es más flexible y puede ser asignado a
+                            varios elementos.</li>
+                        <li>Hay varios tipos de Pseudoclases las cuales nos permiten encontrar uno o varios hijos, cada
+                            una cuenta con sus funciones y especificaciones.</li>
+                        <li>También contamos con los selectores los cuales nos permiten dar estilo a los elementos que
+                            especifiquemos con este atributo.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        <b>Atributo id.</b> Es como un nombre que identifica al elemento. </p>
+
+                        <p><b>Atributo class.</b> Es más flexible y puede ser asignado a varios elementos HTML en el
+                        documento que comparten un diseño similar. </p>
+
+                        <b>Elementos.</b> Un selector de elementos en CSS es una regla que selecciona todos los
+                        elementos de un tipo especifico en el documento HTML. <br>
+
+                    <h3>Pseudoclases</h3>
+                       <p><b>:nth-child().</b> Nos permite encontrar un hijo especifico. <br>
+
+                        <b>:nth-child(odd) :nth-child(even).</b> Las palabras clave odd y even se utilizan
+                        para seleccionar elementos con base en su posición en la secuencia de hijos. <br>
+
+                        <b>:first-child.</b> La pseudoclase first-child referencia solo el primer hijo.
+                        <br>
+
+                        <b>:last-child.</b> La pseudoclase last-child referencia solo el ultimo hijo.
+                        <br>
+
+                        <b>:only:child.</b> La pseudoclase only-child afecta un elemento siempre y cuando
+                        sea el único hijo disponible. <br>
+
+                        <b>:not().</b> Nos permite declarar una excepción. <br> </p>
+
+                    <h3>Selector atributo.</h3>
+                        <p>Un selector de atributo en CSS selecciona elementos HTML en función
+                        de la presencia o el valor de uno de sus atributos. <br>
+                        <b>[atributo^=“inicio”].</b> Una regla con el selector (^=) selecciona
+                        elementos cuyo atributo comienza con un valor especifico. <br>
+
+                        <b>[atributo$=“final”].</b> Una regla con selector ($=) selecciona
+                        elementos cuyo atributo termina con un valor especifico. <br>
+
+                        <b>[atributo*=“cadena”].</b> Una regla con ele selector (*=) selecciona
+                        elementos cuyo atributo contiene una cadena especifica en cualquier posición. <br>
+
+                    <h3>Selectores de relación.</h3>
+                        <p>Los selectores de relación en CSS permiten seleccionar elementos
+                        basados en su relación con otros elementos dentro del documento. <br>
+
+                        <b>Hijos directos (>).</b> Selecciona los elementos que son hijos inmediatos de un
+                        elemento padre. <br>
+
+                        <b>hermanos adyacentes (+).</b> Selecciona un elemento que
+                        es hermano inmediato, es decir, está justo después de otro elemento. <br>
+
+                        <b>Hermanos generales (~).</b> Selecciona todos los
+                        elementos que son hermanos de un elemento anterior, es decir, esta antes, sin importar sin son
+                        hermanos inmediatos o no. </p>
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/Referencias.png"><img src="Imagenes/Referencias-2.png"
+                            alt="Referencias avanzadas de CSS3" height="300"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    CSS también cuenta con diferentes etiquetas, cuenta con dos atributos, el id y el class. Además,
+                    cuenta con diferentes Pseudoclases las cuales nos permiten encontrar a un hijo especifico, esto
+                    dependiendo de la pseudoclase que nosotros utilicemos. También hay diferentes selectores los cuales
+                    nos permiten aplicar estilos a los elementos que especifiquemos utilizando los diversos selectores
+                    con los que contamos.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <section>
+            <div class="titulo">
+                <h1 id="cuestionario">Cuestionario.</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas principales.</h2>
+                <div class="textoiz">
+                    <p>
+                        El cuestonario contaba con 5 preguntas acerca de los temas:
+                        <ol>
+                            <li>HTML5.</li>
+                            <li>Box Model.</li>
+                            <li>Position.</li>
+                            <li>Display.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes de la clase.</h2>
+                <div class="textode">
+                    <p>
+                        El día 4 de octubre del año 2024 el profesor asigno un cuestionario el cual contaba con 5
+                        preguntas, este cuestionario contaría como nuestra asistencia del día, pero como solicite la
+                        ayuda del profesor con un trabajo, no pude responder en el tiempo asignado y no me fue posible
+                        entregar el cuestionario:(.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <a href="Imagenes/Cuestionario.jfif"><img src="Imagenes/Cuestionario-2.png" alt="Cuestionario" height="350"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen.</h2>
+            <div class="texto">
+                <p>
+                    No pude entrgar el cuestionario:(.
+                </p>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>
